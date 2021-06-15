@@ -29,7 +29,7 @@ p {
 }
 
 .header {
-    padding: 2rem 0rem;
+    padding: 2rem 0rem 1rem 0rem;
     width: 90%;
     max-width: 50rem;
     border-bottom: 4px solid #ff5000;
@@ -49,7 +49,7 @@ p {
 }
 
 .appLink {
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
 }
 .appLink h2 {
     margin-top: 1rem;
@@ -73,6 +73,11 @@ p {
     width: 12rem;
 }
 
+.footer {
+    padding: 0rem 0rem 1rem 0rem;
+    width: 90%;
+    max-width: 50rem;
+}
 .legal {
     font-size: 0.8rem;
 }
