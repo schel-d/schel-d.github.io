@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400&family=Source+Sans+Pro:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap");
+body {
+  background-color: #191b1f;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+p, li {
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.3em;
+  color: #ffffffa0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Merriweather", serif;
+  line-height: 1.3em;
+  color: #ffffff;
+}
+
+svg.iconify {
+  font-size: 24px;
+  color: #ffffffc0;
+}
+
+/*# sourceMappingURL=main.css.map */
