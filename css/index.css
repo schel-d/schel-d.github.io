@@ -927,17 +927,21 @@ main {
   align-items: center;
   padding-left: 16px;
   padding-right: 16px;
-  padding-bottom: 48px;
+  padding-bottom: 56px;
 }
 .project .project-hero {
   flex-direction: row;
   margin-top: 48px;
 }
+.project .project-hero div {
+  flex-shrink: 1;
+  flex-grow: 1;
+  max-width: 300px;
+}
 .project .project-hero img {
   width: 100%;
-  max-width: 250px;
 }
-.project .project-hero img:not(:last-child) {
+.project .project-hero div:not(:last-child) {
   margin-right: 16px;
 }
 .project h1 {
