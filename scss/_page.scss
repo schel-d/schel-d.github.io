@@ -6,7 +6,6 @@ nav {
 }
 main {
     z-index: 1;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
     flex-grow: 1;
 }
 #nav-main {
@@ -49,10 +48,16 @@ main {
         color: css-template.$color-l-text;
     }
 }
+nav.light, .light nav, main.light, .light main {
+    box-shadow: 0px 4px 4px 0px rgba(54, 69, 99, 0.1);
+}
 .dark {
     a.nav-link, a#nav-title {
         color: css-template.$color-d-text;
     }
+}
+nav.dark, .dark nav, main.dark, .dark main  {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
 @media only screen and (min-width: 600px) {
