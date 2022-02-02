@@ -59,7 +59,12 @@
         box-shadow: 0px 8px 24px rgba(css-template.$color-shade-on-l, 30%);
     }
 }
-.dark.project, .dark .project {
+.dark.custom-bg.project, .dark.custom-bg .project {
+    .project-hero img {
+        box-shadow: 0px 8px 24px rgba(black, 0.3);
+    }
+}
+.dark:not(.custom-bg).project, .dark:not(.custom-bg) .project {
     .project-hero img {
         box-shadow: 0px 8px 24px black;
     }
