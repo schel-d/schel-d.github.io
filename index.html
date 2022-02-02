@@ -4,45 +4,96 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>schel-d</title>
-		<meta name="description" content="Please take a couple seconds to admire my animated background">
-		<meta name="robots" content="index, follow">
-		<link rel="shortcut icon" href="/img/favicon.ico?" type="image/x-icon">
-		<link rel="stylesheet" href="/css/reset.css">
-		<link rel="stylesheet" href="/css/main.css">
-		<link rel="stylesheet" href="/css/span.css">
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-		<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"> </script>
-		<script src="/js/page.js"> </script>
-		<link rel="stylesheet" href="/css/index.css">
+		<title>Home (schel-d)</title>
+		<meta name="description" content="">
+		<link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
+		<link rel="stylesheet" href="css/index.css">
+		<script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
 	</head>
-	<body> 
-		<div class="page">
-			<div class="card dark title">
-				<h1>schel<span class="accent">-</span>d</h1>
-				<p class="subtitle">Please take a couple seconds to admire my animated background</p>
-			</div>
-			<div class="card light project squashScorekeeper">
-				<div class="row">
-					<img src="/img/squashScorekeeperBanner1.png">
-					<img src="/img/squashScorekeeperBanner2.png">
-				</div>
-				<h1>Squash Scorekeeper</h1>
-				<p class="subtitle">Keep track of scores during squash games</p>
-				<ul>
-					<li>Handles lets and tracks serving</li>
-					<li>Supports light and dark themes</li>
-					<li>Remembers the results of past games</li>
-					<li>No ads, no purchases, no asking for ratings, no weird permissions</li>
-				</ul>
-				<a class="playBadge" href="https://play.google.com/store/apps/details?id=com.schel_d.squash&amp;amp;hl=en_US&amp;amp;gl=US&amp;amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
-					<img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png">
+	<body>
+		<nav class="dark level3 page-centerer">
+			<div class="page-centered" id="nav-main">
+				<a id="nav-title" href="/">
+					<h1>schel-d.com</h1>
 				</a>
+				<div id="nav-main-large">
+					<a href="https://trainarrives.in/" class="nav-link">
+						Train Arrives In
+					</a>
+					<a href="https://play.google.com/store/apps/details?id=com.schel_d.squash&amp;amp;hl=en_US&amp;amp;gl=US&amp;amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" class="nav-link">
+						Squash Scorekeeper
+					</a>
+					<!-- <a href="/timetabler" class="nav-link">
+						Timetabler
+					</a> -->
+					<div class="flex-grow"></div>
+					<button onclick="window.location.href = 'https:\/\/github.com/schel-d'" class="icon-button nav-link">
+						<span class="iconify" data-icon="uil:github"></span>
+					</a>
+				</div>
+				<div id="nav-main-small">
+					<a href="/" class="nav-link">
+						Projects
+					</a>
+					<div class="flex-grow"></div>
+					<button onclick="window.location.href = 'https:\/\/github.com/schel-d'" class="icon-button nav-link">
+						<span class="iconify" data-icon="uil:github"></span>
+					</a>
+				</div>
 			</div>
-			<div class="card dark footer">
+		</nav>
+		<main>
+			<section class="dark level1 page-centerer">
+				<div class="page-centered project">
+					<div class="project-hero">
+						<img src="img/melbpt_banner_1.png" alt="Train Arrives In Screenshot">
+						<img src="img/melbpt_banner_2.png" alt="Train Arrives In Screenshot">
+					</div>
+					<h1>Train Arrives In...</h1>
+					<p class="subtitle">Explore victorian train timetables*</p>
+					<ul>
+						<li>Search for your stop and find when your train's coming</li>
+						<li>Has both Metro and V/Line timetables</li>
+						<li>Set your favourite stops for quick access</li>
+						<li>Free without ads</li>
+					</ul>
+					<div class="project-action">
+						<a href="https://trainarrives.in/" class="button color-normal">Check it out</a>
+					</div>
+					<p class="disclaimer">
+						* Don't rely on this project for accurate timetable information. <a href="https://trainarrives.in/about#data-sources">Why?</a>
+					</p>
+				</div>
+			</section>
+			<section class="light level1 page-centerer">
+				<div class="page-centered project">
+					<div class="project-hero">
+						<img src="img/squash_banner_1.png" alt="Squash Scorekeeper Screenshot">
+						<img src="img/squash_banner_2.png" alt="Squash Scorekeeper Screenshot">
+					</div>
+					<h1>Squash Scorekeeper</h1>
+					<p class="subtitle">Keep track of scores during squash games</p>
+					<ul>
+						<li>Handles lets and tracks serving</li>
+						<li>Supports light and dark themes</li>
+						<li>Remembers the results of past games</li>
+						<li>No ads, no purchases, no asking for ratings, no weird permissions</li>
+					</ul>
+					<div class="project-action">
+						<a class="play-badge" href="https://play.google.com/store/apps/details?id=com.schel_d.squash&amp;amp;hl=en_US&amp;amp;gl=US&amp;amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+							<img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png">
+						</a>
+					</div>
+					<p class="disclaimer">
+						Google Play and the Google Play logo are trademarks of Google LLC.
+					</p>
+				</div>
+			</section>
+		</main>
+		<footer class="dark level0 page-centerer">
+			<div class="page-centered" id="footer-main">
 				<h1>schel-d.com</h1>
-				<p class="legal">Google Play and the Google Play logo are trademarks of Google LLC.</p>
 			</div>
-		</div>
+		</footer>
 	</body>
 </html>

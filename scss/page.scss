@@ -1,0 +1,76 @@
+@use "css-template/css-template";
+
+.page-centerer {
+    flex-direction: column;
+    align-items: center;
+    .page-centered {
+        width: min(100%, 1064px);
+    }
+}
+
+
+nav {
+    z-index: 2;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+main {
+    z-index: 1;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+    flex-grow: 1;
+}
+#nav-main {
+    flex-direction: row;
+    align-items: center;
+    height: 56px;
+    padding-left: 16px;
+    padding-right: 16px;
+    a#nav-title h1 {
+        font-size: 1.2rem;
+    }
+    .nav-link {
+        margin-left: 16px;
+    }
+    .nav-link .iconify {
+        font-size: 1.5rem;
+    }
+}
+#nav-main-large, #nav-main-small {
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+
+#footer-main {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 24px;
+    h1 {
+        margin-top: 24px;
+    }
+    p.disclaimer {
+        font-size: 0.75rem;
+        margin-top: 8px;
+    }
+}
+
+.light {
+    a.nav-link, a#nav-title {
+        color: css-template.$color-l-text;
+    }
+}
+.dark {
+    a.nav-link, a#nav-title {
+        color: css-template.$color-d-text;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #nav-main-small {
+        display: none;
+    }
+}
+@media only screen and (max-width: 599.99px) {
+    #nav-main-large {
+        display: none;
+    }
+}

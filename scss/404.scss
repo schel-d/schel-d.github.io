@@ -1,0 +1,16 @@
+@use "page";
+@use "css-template/css-template";
+
+#content {
+    padding: 24px 16px;
+    h1 {
+        font-size: 1.5rem;
+    }
+    p {
+        margin-top: 16px;
+    }
+    a {
+        font-weight: bold;
+        margin-top: 16px;
+    }
+}

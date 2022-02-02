@@ -857,17 +857,6 @@ body {
   width: min(100%, 1064px);
 }
 
-nav {
-  z-index: 2;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
-}
-
-main {
-  z-index: 1;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
-  flex-grow: 1;
-}
-
 #nav-main {
   flex-direction: row;
   align-items: center;
@@ -878,30 +867,14 @@ main {
 #nav-main a#nav-title h1 {
   font-size: 1.2rem;
 }
-#nav-main .nav-link {
+#nav-main a.nav-link {
   margin-left: 16px;
-}
-#nav-main .nav-link .iconify {
-  font-size: 1.5rem;
 }
 
 #nav-main-large, #nav-main-small {
   flex-direction: row;
   align-items: center;
   flex-grow: 1;
-}
-
-#footer-main {
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 24px;
-}
-#footer-main h1 {
-  margin-top: 24px;
-}
-#footer-main p.disclaimer {
-  font-size: 0.75rem;
-  margin-top: 8px;
 }
 
 .light a.nav-link, .light a#nav-title {
@@ -922,64 +895,5 @@ main {
     display: none;
   }
 }
-.project {
-  min-height: 60vh;
-  align-items: center;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 48px;
-}
-.project .project-hero {
-  flex-direction: row;
-  margin-top: 48px;
-}
-.project .project-hero img {
-  width: 100%;
-  max-width: 250px;
-}
-.project .project-hero img:not(:last-child) {
-  margin-right: 16px;
-}
-.project h1 {
-  margin-top: 48px;
-  font-size: 2rem;
-}
-.project p.subtitle {
-  margin-top: 8px;
-  font-size: 1.2rem;
-}
-.project ul {
-  margin-top: 16px;
-  margin-left: 16px;
-}
-.project li {
-  font-size: 1.2rem;
-  margin-top: 8px;
-}
-.project .project-action {
-  margin-top: 32px;
-}
-.project .project-action .play-badge img {
-  margin: -14px;
-  width: 200px;
-}
-.project .project-action .button {
-  font-weight: bold;
-  font-size: 1.2rem;
-  padding: 16px 24px;
-}
-.project p.disclaimer {
-  font-size: 0.75rem;
-  margin-top: 24px;
-  margin-bottom: -16px;
-}
 
-.light.project .project-hero img, .light .project .project-hero img {
-  box-shadow: 0px 8px 24px rgba(54, 69, 99, 0.3);
-}
-
-.dark.project .project-hero img, .dark .project .project-hero img {
-  box-shadow: 0px 8px 24px black;
-}
-
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=page.css.map */

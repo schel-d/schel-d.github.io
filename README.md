@@ -1,1 +1,2 @@
-# schel-d.github.io
+# Personal Website
+My personal website that contains links to my projects, hosted on Github Pages.

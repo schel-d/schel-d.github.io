@@ -1,0 +1,66 @@
+@use "page";
+@use "css-template/css-template";
+
+.project {
+    min-height: 60vh;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 48px;
+    
+    .project-hero {
+        flex-direction: row;
+        margin-top: 48px;
+        img {
+            width: 100%;
+            max-width: 250px;
+            
+        }
+        img:not(:last-child) {
+            margin-right: 16px;
+        }
+    }
+    h1 {
+        margin-top: 48px;
+        font-size: 2rem;
+    }
+    p.subtitle {
+        margin-top: 8px;
+        font-size: 1.2rem;
+    }
+    ul {
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+    li {  
+        font-size: 1.2rem;
+        margin-top: 8px;     
+    }
+    .project-action {
+        margin-top: 32px;
+        .play-badge img {
+            margin: -14px;
+            width: 200px;
+        }
+        .button {
+            font-weight: bold;
+            font-size: 1.2rem;
+            padding: 16px 24px;
+        }
+    }
+    p.disclaimer {
+        font-size: 0.75rem;
+        margin-top: 24px;
+        margin-bottom: -16px;
+    }
+}
+.light.project, .light .project {
+    .project-hero img {
+        box-shadow: 0px 8px 24px rgba(css-template.$color-shade-on-l, 30%);
+    }
+}
+.dark.project, .dark .project {
+    .project-hero img {
+        box-shadow: 0px 8px 24px black;
+    }
+}
