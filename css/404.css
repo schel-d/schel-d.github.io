@@ -403,7 +403,7 @@ a.button {
   border: 2px solid #19D6FF;
 }
 
-button.icon-button, input.icon-button[type=button], input.icon-button[type=submit], input.icon-button[type=reset] {
+button.icon-button, input.icon-button[type=button], input.icon-button[type=submit], input.icon-button[type=reset], a.icon-button {
   height: 40px;
   width: 40px;
   padding: 0;
@@ -414,41 +414,41 @@ button.icon-button, input.icon-button[type=button], input.icon-button[type=submi
   border-radius: 12px;
   outline: none;
 }
-button.icon-button i, input.icon-button[type=button] i, input.icon-button[type=submit] i, input.icon-button[type=reset] i {
+button.icon-button i, input.icon-button[type=button] i, input.icon-button[type=submit] i, input.icon-button[type=reset] i, a.icon-button i {
   font-size: 1.2rem;
 }
 
-.light button.icon-button, .light input.icon-button[type=button], .light input.icon-button[type=submit], .light input.icon-button[type=reset] {
+.light button.icon-button, .light input.icon-button[type=button], .light input.icon-button[type=submit], .light input.icon-button[type=reset], .light a.icon-button {
   background-color: transparent;
   border: none;
 }
-.light button.icon-button:hover, .light input.icon-button[type=button]:hover, .light input.icon-button[type=submit]:hover, .light input.icon-button[type=reset]:hover {
+.light button.icon-button:hover, .light input.icon-button[type=button]:hover, .light input.icon-button[type=submit]:hover, .light input.icon-button[type=reset]:hover, .light a.icon-button:hover {
   background-color: rgba(54, 69, 99, 0.1);
   border: none;
 }
-.light button.icon-button:active, .light input.icon-button[type=button]:active, .light input.icon-button[type=submit]:active, .light input.icon-button[type=reset]:active {
+.light button.icon-button:active, .light input.icon-button[type=button]:active, .light input.icon-button[type=submit]:active, .light input.icon-button[type=reset]:active, .light a.icon-button:active {
   background-color: rgba(54, 69, 99, 0.15);
   border: none;
 }
-.light button.icon-button:disabled, .light button.icon-button[disabled], .light input.icon-button[type=button]:disabled, .light input.icon-button[type=button][disabled], .light input.icon-button[type=submit]:disabled, .light input.icon-button[type=submit][disabled], .light input.icon-button[type=reset]:disabled, .light input.icon-button[type=reset][disabled] {
+.light button.icon-button:disabled, .light button.icon-button[disabled], .light input.icon-button[type=button]:disabled, .light input.icon-button[type=button][disabled], .light input.icon-button[type=submit]:disabled, .light input.icon-button[type=submit][disabled], .light input.icon-button[type=reset]:disabled, .light input.icon-button[type=reset][disabled], .light a.icon-button:disabled, .light a.icon-button[disabled] {
   opacity: 0.5;
   background-color: transparent;
   border: none;
 }
 
-.dark button.icon-button, .dark input.icon-button[type=button], .dark input.icon-button[type=submit], .dark input.icon-button[type=reset] {
+.dark button.icon-button, .dark input.icon-button[type=button], .dark input.icon-button[type=submit], .dark input.icon-button[type=reset], .dark a.icon-button {
   background-color: transparent;
   border: none;
 }
-.dark button.icon-button:hover, .dark input.icon-button[type=button]:hover, .dark input.icon-button[type=submit]:hover, .dark input.icon-button[type=reset]:hover {
+.dark button.icon-button:hover, .dark input.icon-button[type=button]:hover, .dark input.icon-button[type=submit]:hover, .dark input.icon-button[type=reset]:hover, .dark a.icon-button:hover {
   background-color: rgba(179, 196, 230, 0.08);
   border: none;
 }
-.dark button.icon-button:active, .dark input.icon-button[type=button]:active, .dark input.icon-button[type=submit]:active, .dark input.icon-button[type=reset]:active {
+.dark button.icon-button:active, .dark input.icon-button[type=button]:active, .dark input.icon-button[type=submit]:active, .dark input.icon-button[type=reset]:active, .dark a.icon-button:active {
   background-color: rgba(179, 196, 230, 0.11);
   border: none;
 }
-.dark button.icon-button:disabled, .dark button.icon-button[disabled], .dark input.icon-button[type=button]:disabled, .dark input.icon-button[type=button][disabled], .dark input.icon-button[type=submit]:disabled, .dark input.icon-button[type=submit][disabled], .dark input.icon-button[type=reset]:disabled, .dark input.icon-button[type=reset][disabled] {
+.dark button.icon-button:disabled, .dark button.icon-button[disabled], .dark input.icon-button[type=button]:disabled, .dark input.icon-button[type=button][disabled], .dark input.icon-button[type=submit]:disabled, .dark input.icon-button[type=submit][disabled], .dark input.icon-button[type=reset]:disabled, .dark input.icon-button[type=reset][disabled], .dark a.icon-button:disabled, .dark a.icon-button[disabled] {
   opacity: 0.5;
   background-color: transparent;
   border: none;
