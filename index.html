@@ -1,115 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Home (schel-d)</title>
-		<meta name="description" content="My personal projects.">
-		<link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon">
-		<link rel="stylesheet" href="./css/index.css">
-		<script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
-	</head>
-	<body>
-		<nav class="dark level3 page-centerer">
-			<div class="page-centered" id="nav-main">
-				<a id="nav-title" href="/">
-					<h1>schel-d.com</h1>
-				</a>
-				<div id="nav-main-large">
-					<a href="https://trainarrives.in/" class="nav-link">
-						Train Arrives In
-					</a>
-					<a href="https://play.google.com/store/apps/details?id=com.schel_d.squash&amp;amp;hl=en_US&amp;amp;gl=US&amp;amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" class="nav-link">
-						Squash Scorekeeper
-					</a>
-					<a href="/timetabler" class="nav-link">
-						Timetabler
-					</a>
-					<div class="flex-grow"></div>
-					<a href="https://github.com/schel-d" class="icon-button nav-link">
-						<span class="iconify" data-icon="uil:github"></span>
-					</a>
-				</div>
-				<div id="nav-main-small">
-					<a href="/" class="nav-link">
-						Projects
-					</a>
-					<div class="flex-grow"></div>
-					<a href="https://github.com/schel-d" class="icon-button nav-link">
-						<span class="iconify" data-icon="uil:github"></span>
-					</a>
-				</div>
-			</div>
-		</nav>
-		<main>
-			<section class="dark level1 page-centerer">
-				<div class="page-centered project">
-					<div class="project-hero">
-						<div><img src="img/melbpt_banner_1.png" alt="Train Arrives In Screenshot"></div>
-						<div><img src="img/melbpt_banner_2.png" alt="Train Arrives In Screenshot"></div>
-					</div>
-					<h1>Train Arrives In...</h1>
-					<p class="subtitle">Explore victorian train timetables*</p>
-					<ul>
-						<li>Search for your stop and find when your train's coming</li>
-						<li>Has both Metro and V/Line timetables</li>
-						<li>Set your favourite stops for quick access</li>
-					</ul>
-					<div class="project-action">
-						<a href="https://trainarrives.in/" class="button color-normal">Check it out</a>
-					</div>
-					<p class="disclaimer">
-						* Don't rely on this project for accurate timetable information. <a href="https://trainarrives.in/about#data-sources">Why?</a>
-					</p>
-				</div>
-			</section>
-			<section class="light level1 page-centerer">
-				<div class="page-centered project">
-					<div class="project-hero">
-						<div><img src="img/squash_banner_1.png" alt="Squash Scorekeeper Screenshot"></div>
-						<div><img src="img/squash_banner_2.png" alt="Squash Scorekeeper Screenshot"></div>
-					</div>
-					<h1>Squash Scorekeeper</h1>
-					<p class="subtitle">Keep track of scores during squash games</p>
-					<ul>
-						<li>Handles lets and tracks serving</li>
-						<li>Supports light and dark themes</li>
-						<li>Remembers the results of past games</li>
-					</ul>
-					<div class="project-action">
-						<a class="play-badge" href="https://play.google.com/store/apps/details?id=com.schel_d.squash&amp;amp;hl=en_US&amp;amp;gl=US&amp;amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
-							<img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png">
-						</a>
-					</div>
-					<p class="disclaimer">
-						Google Play and the Google Play logo are trademarks of Google LLC.
-					</p>
-				</div>
-			</section>
-			
-			<section class="dark custom-bg page-centerer" style="background-color: #173e50;">
-				<div class="page-centered project">
-					<div class="project-hero">
-						<div><img src="img/timetabler_banner_1.png" alt="Timetabler Screenshot"></div>
-						<div><img src="img/timetabler_banner_2.png" alt="Timetabler Screenshot"></div>
-					</div>
-					<h1>Timetabler</h1>
-					<p class="subtitle">Visualize your uni timetable while you choose it</p>
-					<ul>
-						<li>Compare your preferences, showing all your subjects on one timetable</li>
-						<li>Enter your classes with a simple, flexible, and sharable .json file</li>
-					</ul>
-					<div class="project-action">
-						<a href="/timetabler" class="button color-normal">Check it out</a>
-					</div>
-				</div>
-			</section>
-		</main>
-		<footer class="dark level0 page-centerer">
-			<div class="page-centered" id="footer-main">
-				<h1>schel-d.com</h1>
-			</div>
-		</footer>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home (schel-d)</title>
+    <meta name="description" content="My personal projects." />
+    <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/index.css" />
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+  </head>
+  <body>
+    <nav class="dark level3 page-centerer">
+      <div class="page-centered" id="nav-main">
+        <a id="nav-title" href="/">
+          <h1>schel-d.com</h1>
+        </a>
+        <div id="nav-main-large">
+          <a href="https://trainarrives.in/" class="nav-link">
+            Train Arrives In
+          </a>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.schel_d.squash&amp;amp;hl=en_US&amp;amp;gl=US&amp;amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            class="nav-link"
+          >
+            Squash Scorekeeper
+          </a>
+          <a href="/timetabler" class="nav-link"> Timetabler </a>
+          <div class="flex-grow"></div>
+          <a href="https://github.com/schel-d" class="icon-button nav-link">
+            <span class="iconify" data-icon="uil:github"></span>
+          </a>
+        </div>
+        <div id="nav-main-small">
+          <a href="/" class="nav-link"> Projects </a>
+          <div class="flex-grow"></div>
+          <a href="https://github.com/schel-d" class="icon-button nav-link">
+            <span class="iconify" data-icon="uil:github"></span>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section class="dark level1 page-centerer">
+        <div class="page-centered project">
+          <div class="project-hero">
+            <div>
+              <img
+                src="img/melbpt_banner_1.png"
+                alt="Train Arrives In Screenshot"
+              />
+            </div>
+            <div>
+              <img
+                src="img/melbpt_banner_2.png"
+                alt="Train Arrives In Screenshot"
+              />
+            </div>
+          </div>
+          <h1>Train Arrives In...</h1>
+          <p class="subtitle">Explore victorian train timetables*</p>
+          <ul>
+            <li>Search for your stop and find when your train's coming</li>
+            <li>Has both Metro and V/Line timetables</li>
+            <li>Set your favourite stops for quick access</li>
+          </ul>
+          <div class="project-action">
+            <a href="https://trainarrives.in/" class="button color-normal"
+              >Check it out</a
+            >
+          </div>
+          <p class="disclaimer">
+            * Don't rely on this project for accurate timetable information.
+            <a href="https://trainarrives.in/about#data-sources">Why?</a>
+          </p>
+        </div>
+      </section>
+      <section class="light level1 page-centerer">
+        <div class="page-centered project">
+          <div class="project-hero">
+            <div>
+              <img
+                src="img/squash_banner_1.png"
+                alt="Squash Scorekeeper Screenshot"
+              />
+            </div>
+            <div>
+              <img
+                src="img/squash_banner_2.png"
+                alt="Squash Scorekeeper Screenshot"
+              />
+            </div>
+          </div>
+          <h1>Squash Scorekeeper</h1>
+          <p class="subtitle">Keep track of scores during squash games</p>
+          <ul>
+            <li>Handles lets and tracks serving</li>
+            <li>Supports light and dark themes</li>
+            <li>Remembers the results of past games</li>
+          </ul>
+          <div class="project-action">
+            <a
+              class="play-badge"
+              href="https://play.google.com/store/apps/details?id=com.schel_d.squash&amp;amp;hl=en_US&amp;amp;gl=US&amp;amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+            >
+              <img
+                alt="Get it on Google Play"
+                src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+              />
+            </a>
+          </div>
+          <p class="disclaimer">
+            Google Play and the Google Play logo are trademarks of Google LLC.
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="dark custom-bg page-centerer"
+        style="background-color: #173e50"
+      >
+        <div class="page-centered project">
+          <div class="project-hero">
+            <div>
+              <img
+                src="img/timetabler_banner_1.png"
+                alt="Timetabler Screenshot"
+              />
+            </div>
+            <div>
+              <img
+                src="img/timetabler_banner_2.png"
+                alt="Timetabler Screenshot"
+              />
+            </div>
+          </div>
+          <h1>Timetabler</h1>
+          <p class="subtitle">
+            Visualize your uni timetable while you choose it
+          </p>
+          <ul>
+            <li>
+              Compare your preferences, showing all your subjects on one
+              timetable
+            </li>
+            <li>
+              Enter your classes with a simple, flexible, and sharable .json
+              file
+            </li>
+          </ul>
+          <div class="project-action">
+            <a href="/timetabler" class="button color-normal">Check it out</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="dark level0 page-centerer">
+      <div class="page-centered" id="footer-main">
+        <h1>schel-d.com</h1>
+      </div>
+    </footer>
+  </body>
 </html>
